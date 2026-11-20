@@ -17,9 +17,17 @@ Análisis de diez perfiles de tomografía de resistividad eléctrica (ERT, arreg
 
 Ninguna anomalía se presenta como cavidad comprobada.
 
+## Código
+- [`codigo/pseudosecciones_wenner.py`](codigo/pseudosecciones_wenner.py): lee archivos de datos en formato Res2DInv con arreglo Wenner (nombre, espaciamiento, tipo de arreglo, número de datos, filas x-a-ρa) y dibuja la pseudosección de cada perfil con escala logarítmica. Probado con los diez perfiles de Dayat Ben Fellah (el número de datos leído coincide con el del encabezado en todos).
+  ```
+  pip install numpy matplotlib
+  python codigo/pseudosecciones_wenner.py carpeta_con_datos/ salida/
+  ```
+  La pseudoprofundidad es z = 0.519·a (Edwards, 1977): sirve para dibujar, no es la profundidad real.
+
 ## Qué no incluye
 - Los datos de los perfiles y los modelos de Res2DInv son de terceros (literatura) y no se incluyen.
-- El código de la inversión propia no está en este repositorio. Una implementación de inversión ERT/IP en Python del mismo autor está en [`ert-ip-kuala-lumpur`](../ert-ip-kuala-lumpur).
+- El código de la inversión propia del informe no está en este repositorio. Una implementación de inversión ERT/IP en Python del mismo autor está en [`ert-ip-kuala-lumpur`](../ert-ip-kuala-lumpur).
 
 ## Licencia
 El texto y las figuras del informe son del autor; los datos originales pertenecen a sus autores.
