@@ -30,4 +30,4 @@ Ninguna anomalía se presenta como cavidad comprobada.
 - El código de la inversión propia del informe no está en este repositorio. Una implementación de inversión ERT/IP en Python del mismo autor está en [`ert-ip-kuala-lumpur`](https://github.com/ianachlisv-rgb/ert-ip-kuala-lumpur).
 
 ## Licencia
-El código está bajo licencia MIT (ver [`LICENSE`](LICENSE)). El texto y las figuras del informe son del autor; los datos originales y los modelos de Res2DInv pertenecen a sus autores. La imagen de fondo de la Fig. 1 es de Google Earth y está atribuida en la figura.
+El código está bajo licencia MIT (ver [`LICENSE`](LICENSE)). El texto y las figuras del informe son del autor; los datos originales y los modelos de Res2DInv pertenecen a sus autores. La imagen de fondo del mapa de perfiles es de Google Earth y está atribuida en la figura.
